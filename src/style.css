@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #e2e1e4;
+}
+.w {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #c0c0c0;
+}
+
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+a:link,
+a:visited {
+    color: #0000ee;
+}
+
+.clearfix:after {
+    content: '1';
+    display: block;
+    height: 0px; /*不让文字1撑高位置*/
+    clear: both;
+    visibility: hidden; /*隐藏属性, 与overflow: hidden的区别在于它不会让出位置*/
+}
